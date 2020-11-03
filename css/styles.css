@@ -25,4 +25,9 @@ body {
     height: 100vh;
     margin: 0 1rem;
   }
+
+  #pres{
+  font-family: 'Trispace', sans-serif;
+
+  }
 }
