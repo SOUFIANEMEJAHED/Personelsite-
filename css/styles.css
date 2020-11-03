@@ -26,9 +26,11 @@ body {
     margin: 0 1rem;
   }
 
-  #pres{
+  
+}
+
+#pres{
   font-family: 'Trispace', sans-serif;
   font-size: 46px; 
 
   }
-}
