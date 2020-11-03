@@ -1,11 +1,8 @@
-body {
-    /*background-image: url('img/soufiane.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;*/
+.body{
+    
 
     margin: 0;
-    /*background-color: black;*/
+   background-color: 
 }
 
 
@@ -15,28 +12,42 @@ body {
   .presentation-container {
       float: left;
       max-width: 60%;
+      
   }
 
   #soufiane-image-container {
+    
     position: fixed;
-    top: 0;
-    right: 0;
+    top:-4  0px;
+    text-align: center;
     width: 300px;
     height: 100vh;
     margin: 0 1rem;
+
+    
+    
   }
 
-  
-}
+
+
+
 
 #pres{
-  font-family: 'Trispace', sans-serif;
+  font-family: 'Syne Mono', monospace;
+
   font-size: 46px;
-  position: fixed;
-    top: 50%;
-    left: 0;
-    width: 300px;
-    height: 100vh;
-    margin: 0 1rem; 
+  margin-top: 300px;
+  color: #FCA311;
+  
 
   }
+#namew{
+  color: #14213D;
+ text-align: center;
+ margin-top: 50px;
+ font-family: 'Syne Mono', monospace;
+
+ font-weight: bold;
+
+
+}
