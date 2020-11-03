@@ -14,36 +14,56 @@
 
 </head>
 <body class="body">
+  <script type="text/javascript" src="js/nodes.js"></script>
+    <script type="text/javascript">
+        var nodesjs = new NodesJs({
+            id: 'nodes',
+            width: window.innerWidth,
+            height: window.innerHeight,
+            particleSize: 2,
+            lineSize: 1,
+            particleColor: [0, 0, 0, 7.3],
+            lineColor: [0, 0, 0],
+            backgroundFrom: [255, 255, 255],
+            backgroundTo: [252, 163, 17],
+            backgroundDuration: 7000,
+            nobg: false,
+            number: window.hasOwnProperty('orientation') ? 30: 100,
+            speed: 20
+        });
+    </script>
 
+    <div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%;">
+        <canvas id="nodes"></canvas>
 
-    <div class="master-container align-items-center p-2 d-flex flex-column align-items-center">
-      <h1 id="namew">SOUFIANE MEJAHED</h1>
+    </div>
+    
+     <div class="master-container align-items-center p-2 d-flex flex-column align-items-center">
+      
 
-       
+       <h1 id="namew">SOUFIANE MEJAHED</h1>
 
       <div id="soufiane-image-container" class="d-flex justify-content-center align-items-center">
+        
         <a style="font-size: 2rem; ; margin: 40px; color: #14213D;" class="email-link" href="mailto:soufiane.Mejahed5@gmail.com?subject=Let's work together"><i class="fas fa-envelope "></i> </a>
 
          <a style="font-size: 2rem;   margin: 40px; color: #14213D;"  href=""><i class="fab fa-linkedin"></i></a>
+
         <img class="rounded-circle" width="300px"  src="img/soufiane.jpg" alt="Soufiane Mejahed">
+
         <a style="font-size: 2rem;  margin: 40px; color: #14213D;"  href="https://github.com/SOUFIANEMEJAHED"><i class="fab fa-github"></i></a>
         <a style="font-size: 2rem;  margin: 40px; color: #14213D;" href="https://gitlab.com/SOUFIANEMEJAHED"><i class="fab fa-gitlab"></i></a>
 
+         
+
+
       </div>
-      <BR>
+      <div class="presentation-container mt-5 ">
+           <p id="pres"> Hello I'm a web devlopper </p>  
+         </div> 
+  
 
-      <div class="presentation-container mt-5   ">
-        <p id="pres"> Hello I'm a web devlopper </p>  
-
-        
-
-          
-	  
-
-    </div>
-
-
-
+ 
 
 </body>
 </html>

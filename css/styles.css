@@ -1,12 +1,6 @@
 body {
     
     margin: 0;
- 
-background-position:center;
-
-background-color: red;
-
-
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -25,33 +19,33 @@ background-color: red;
     text-align: center;
     width: 300px;
     height: 100vh;
-    margin: 0 1rem;
+    margin: 0 1rem;}
 
-    
-    
-  }
-
-
-
-
-
-
-#pres{
+  #pres{
+  position: fixed;
   font-family: 'Syne Mono', monospace;
-
   font-size: 46px;
-  margin-top: 300px;
+  margin-top: 500px;
   color: #FCA311;
   
 
   }
 #namew{
+  position: fixed;
   color: #14213D;
  text-align: center;
  margin-top: 50px;
  font-family: 'Syne Mono', monospace;
-
  font-weight: bold;
 
 
 }
+  
+
+  }
+
+
+
+
+
+
