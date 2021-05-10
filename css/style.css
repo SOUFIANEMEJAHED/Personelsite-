@@ -9,20 +9,10 @@
     
   }
   
-  h2{ 
-     
-     
-      margin: 8px;
-    
-  }
+  h2{ margin: 8px;}
   
-  .wpoem{  
-  margin:30px;
-  
-  
-  
-  } 
   .max-width-400 {
     max-width: 400px;
+    margin:30px;
   }
   
